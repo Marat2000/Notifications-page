@@ -38,8 +38,14 @@ body
 	padding-right: 2rem;
 	border-radius: 1rem;
 	margin-bottom: .5rem;
+	border:hsl(0, 0%, 100%) .02rem solid;
 }
 
+.container:hover
+{
+	cursor: pointer;
+	border:hsl(219, 14%, 63%) .02rem solid;
+}
 
 
 main div p
