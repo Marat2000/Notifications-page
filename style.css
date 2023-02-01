@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+html
+{
+	display: grid;
+	font-size: 16px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	background-color: hsl(210, 60%, 98%);
+	min-height: 100vh;
+	place-items:center;
+	
+	
+}
+
+
+body
+{
+	width: 40%;
+	background-color: hsl(0,0%,100%);
+	padding: 1rem;
+	border-radius: 1rem;
+	margin:auto;
+	margin-top: auto;
+	margin-bottom:auto;
+	
+	
+
+}
+
+
+
+
+.container	, header
+{
+	display: flex;
+	align-items: center;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	border-radius: 1rem;
+	margin-bottom: .5rem;
+}
+
+
+
+main div p
+{
+	display: grid;
+}
+
+
+
+img
+{
+	width: 3rem;
+	margin-right: 1rem;
+}
+
+header
+{
+	justify-content: space-between;
+	align-items: center;
+}
+
+header span
+{
+	color:hsl(219, 12%, 42%);
+}
+
+.allread:hover , .groupname:hover , .username:hover, .post:hover
+{
+	color:hsl(219, 85%, 26%);
+	cursor: pointer;
+	transition: .15s;
+}
+
+header h1
+{
+	font-size: 1.5rem;
+	color: hsl(224, 21%, 14%);
+}
+
+header h1 span
+{
+	color: hsl(0, 0%, 100%);
+	background-color: hsl(219, 85%, 26%);
+	padding: .2rem .8rem;
+	font-size: 1.1rem;
+	border-radius: .5rem;
+}
+
+
+
+main div
+{
+	color:hsl(219, 14%, 63%);
+	font-weight: 800;
+}
+
+
+
+.post, .groupname
+{
+	 color:hsl(219, 12%, 42%);
+	 font-weight: 800;
+}
+
+.redpoint
+{
+	display: none;
+	margin-left: .5rem;
+	background-color:hsl(1, 90%, 64%);
+	width: .5rem;
+	height: .5rem;
+	border-radius: 50%;
+	
+}
+
+.username
+{
+	 color:hsl(224, 21%, 14%);
+	 font-weight: 800;
+}
+
+.time
+{
+	font-weight: 500;
+}
+
+.message
+{
+	margin: 0.5rem 0;
+	padding:.7rem;
+	border:hsl(219, 14%, 63%) .02rem solid;
+	border-radius: .5rem;
+	background-color: hsla(0, 0%, 100%,50%);
+}
+
+.message:hover
+{
+	border-color:hsl(211, 68%, 94%);
+	border-radius: .7rem;
+	background-color: hsl(205, 33%, 90%);
+	transition: .2s;
+	cursor: pointer;
+}
+
+
+.chess
+{
+	margin-left: auto;
+}
+
+/*
+
+|\  /|  |'''''  |'\   T  |\
+| \/ |  |===    |  |  |  |=\
+|    |  |_____  |_/   |  |  \
+
+*/
+
+@media (max-width: 800px)
+{
+body
+{
+	width: 90%;
+}
+
+.allread
+{
+	font-size: .9rem;
+}
+
+header h1
+{
+	font-size: .9rem;
+}
+
+.container
+{
+	font-size: .8rem;
+}
+
+
+}
+
